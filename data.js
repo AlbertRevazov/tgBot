@@ -1,14 +1,14 @@
 const commands = [
   {
     command: "/nextgame",
-    description: "скажет с кем следующая игра",
+    description: "Скажет с кем следующая игра",
   },
   {
     command: "/previousgame",
-    description: "скажет как закончилась предыдущая",
+    description: "Скажет как закончилась предыдущая",
   },
+  { command: "/scorers", description: "Список бомбардиров Серии А" },
+  { command: "/scorers", description: "Список бомбардиров Серии А" },
 ];
 
-const games = [{}];
-// const response = await fetch(`${apiUrl}/proxy/calendar/${payload}`);
 module.exports = commands;
